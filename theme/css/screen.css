@@ -47,9 +47,7 @@ div.slide {
   margin-left: -400px;
   left: 50%;
   top: 50%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#fff), to(#fff));
-  background-color: #eee;
-  background: -moz-linear-gradient(bottom, #fff, #fff);
+  background: white;
   -webkit-transition: margin 0.25s ease-in-out;
   -moz-transition: margin 0.25s ease-in-out;
   -o-transition: margin 0.25s ease-in-out;
@@ -288,10 +286,11 @@ header:not(:only-child) {
 
 header h1, header h2, header h3, header h4, header h5, header h6 {
   display: inline;
-  font-size: 100%;
-  font-weight: normal;
+  font-size: 80%;
+  font-weight: weight;
   padding: 0;
   margin: 0;
+  color: #333;
 }
 
 header h2:first-child {
@@ -300,8 +299,9 @@ header h2:first-child {
 
 section, .slide header:only-child h1 {
   font-family: "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
-  color: #3f3f3f;
+  color: #666;
   text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
+  font-size: 100%;
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 100px;
@@ -565,4 +565,18 @@ aside {
 
 .image-reference {
   display: inline;
+}
+
+
+/* ----- First slide and last slide ----- */
+.slides .slide-wrapper:first-child .slide {
+  background: white url(../images/logo.svg) 300px 450px no-repeat;
+  background-size: 300px;
+}
+
+.slides .slide-wrapper:first-child .slide header:only-child h1 {
+  height: 450px;
+  font-size: 400%;
+  font-weight: bold;
+  color: #333;
 }
