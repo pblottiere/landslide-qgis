@@ -1,6 +1,6 @@
 body {
   font: 14px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
-  background: #778;
+  background: #1C2028;
   padding: 0;
   margin: 0;
   overflow: hidden;
@@ -47,9 +47,9 @@ div.slide {
   margin-left: -400px;
   left: 50%;
   top: 50%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#bbd), to(#fff));
+  background: -webkit-gradient(linear, left bottom, left top, from(#fff), to(#fff));
   background-color: #eee;
-  background: -moz-linear-gradient(bottom, #bbd, #fff);
+  background: -moz-linear-gradient(bottom, #fff, #fff);
   -webkit-transition: margin 0.25s ease-in-out;
   -moz-transition: margin 0.25s ease-in-out;
   -o-transition: margin 0.25s ease-in-out;
@@ -99,9 +99,9 @@ body.expose div.slide {
 }
 
 body.expose div.slide:hover {
-  background: -webkit-gradient(linear, left bottom, left top, from(#bdd), to(#fff));
+  background: -webkit-gradient(linear, left bottom, left top, from(#fff), to(#fff));
   background-color: #eee;
-  background: -moz-linear-gradient(bottom, #bdd, #fff);
+  background: -moz-linear-gradient(bottom, #fff, #fff);
 }
 
 body.expose .slide-wrapper {
