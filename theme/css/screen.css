@@ -233,7 +233,7 @@ div.slide div.presenter_notes, div.slides div.presenter_notes {
 /* Slide styles */
 
 div.slide p {
-  font-size: 20px;
+  font-size: 180%;
 }
 
 .slide.far-past {
@@ -330,11 +330,11 @@ section img.align-left {
 }
 
 a {
-  color: inherit;
+  color: #0088CC;
   display: inline-block;
   text-decoration: none;
   line-height: 110%;
-  border-bottom: 2px solid #3f3f3f;
+  font-size: 180%;
 }
 
 pre, code, tt {
@@ -372,7 +372,7 @@ blockquote {
 
 li {
   padding: 10px 0;
-  font-size: 20px;
+  font-size: 180%;
 }
 
 li pre { margin-left: 0em; }
